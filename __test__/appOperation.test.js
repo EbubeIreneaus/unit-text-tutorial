@@ -8,6 +8,6 @@ test('multiplication by 10', () => {
     expect(appOperations.multiply(10, 20)).toBe(200)
 });
 
-test('multiplication of 3', () => {
-    expect(appOperations.multiply(20, 3)).toBe(60)
+test('addition of 3', () => {
+    expect(appOperations.add(20, 3)).toBe(23)
 });
