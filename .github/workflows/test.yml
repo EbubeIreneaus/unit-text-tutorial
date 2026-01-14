@@ -1,0 +1,23 @@
+name: unit testing
+
+on: 
+    pull_request:
+
+    workflow_dispatch:
+
+jobs:
+    build:
+        permissions: 
+            checks: write
+            pull-requests: write
+            contents: write
+            
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v6
+            - uses: actions/setup-node@v6
+              with:
+                  node-version: 20
+            - run: npm ci
+            - run: npm test
+            - uses: ArtiomTr/jest-coverage-report-action@v2

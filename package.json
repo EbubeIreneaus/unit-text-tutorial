@@ -1,0 +1,24 @@
+{
+  "name": "unit-text-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EbubeIreneaus/unit-text-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EbubeIreneaus/unit-text-tutorial/issues"
+  },
+  "homepage": "https://github.com/EbubeIreneaus/unit-text-tutorial#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
